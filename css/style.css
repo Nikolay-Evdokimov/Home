@@ -1,0 +1,201 @@
+*,
+::before,
+::after{
+   margin: 0px;
+   padding: 0px;
+   border: 0;
+}
+body {
+   background-color: rgb(37, 37, 37);
+   background: url(../image/image-02.jpg) center /2560px 1480px no-repeat;
+}
+.wrapper{
+   max-width: 100%;
+   margin: 40px; 
+   padding: 150px 0px 50px 0px;
+   border: solid 1px rgb(87, 87, 87);
+   border-radius: 0px 0px 50px 50px;
+   background-color: rgb(46, 46, 46);
+   background: url(../image/2.png) center no-repeat;
+}
+.audio{
+   display: block;
+   margin: 130px auto 0px auto;
+}
+a {
+   text-decoration: none;
+}
+
+
+.conteiner__box{
+  max-width: 1200px;
+   margin: 0px auto;
+   background-color: rgba(22, 22, 22, 0.712);
+   font-size: 0;
+   border: solid 2px rgba(102, 102, 102, 0.493);
+   border-radius: 30px;
+   transition: all 0.5s;
+
+}
+.conteiner__buttom {
+   text-align: center;
+   padding: 20px 0px 20px 0px;
+}
+.buttom {
+   display: inline-block;
+   font-size: 20px;
+   color: rgb(206, 190, 190);
+   margin: 10px 10px 10px 0px;
+   padding: 10px;
+   width: 12%;
+   text-align: center;
+   background-color: rgba(70, 70, 70, 0.274);
+   /* border: solid 1px rgb(91, 91, 92); */
+   border-radius: 5px 5px 5px 5px;
+}
+.buttom::before{
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   margin: 0px 0px -5px 0px;
+   background-color: rgb(255, 0, 0);
+   text-align: center;
+   content: "";
+   display: block;
+}
+
+.link__a {
+   display: inline-block;
+   font-size: 20px;
+   color: rgb(206, 190, 190);
+   background-color: rgba(70, 70, 70, 0.274);
+   margin: 10px 10px 10px 0px;
+   padding: 10px;
+   width: 12%;
+   text-align: center;
+   /* border: solid 1px rgb(83, 83, 83); */
+   border-radius: 5px 5px 5px 5px;
+   /* box-shadow: inset 3px 3px 1px 0px rgb(107, 107, 107); */
+}
+.link__a::before {
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   margin: 0px 0px -5px 0px;
+   background-color: rgb(255, 0, 0);
+   text-align: center;
+   content: "";
+   display: block;
+}
+.link__a:hover {
+   background-color: rgba(82, 82, 82, 0.507);
+}
+.link__a:active {
+   margin: 0px 15px 0px 5px;
+}
+.buttom:hover {
+   background-color: rgba(82, 82, 82, 0.534);
+}
+.conteiner__box:hover {
+   background-color: rgb(14, 14, 14);
+}
+.buttom:hover::before{
+   background-color: rgb(40, 224, 3);
+   color: rgb(65, 252, 48);
+}
+.buttom:hover:first-of-type {
+   color: rgb(65, 252, 48);
+}
+.link__a:hover:last-of-type{
+   color: rgb(255, 0, 0);
+}
+.link__a:hover::before{
+   background-color: rgb(40, 224, 3);
+   color: rgb(255, 2, 2);
+}
+
+
+/* Второй блок */
+
+.buttom__1 {
+   display: inline-block;
+   font-size: 20px;
+   color: rgb(206, 190, 190);
+   margin: 10px 10px 10px 0px;
+   padding: 10px;
+   width: 12%;
+   text-align: center;
+   background-color: rgba(70, 70, 70, 0.274);
+   /* border: solid 1px rgb(91, 91, 92); */
+   border-radius: 5px 5px 5px 5px;
+}
+.buttom__1::before{
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   margin: 0px 0px -5px 0px;
+   background-color: rgb(255, 0, 0);
+   text-align: center;
+   content: "";
+   display: block;
+}
+
+.link__b {
+   display: inline-block;
+   font-size: 20px;
+   color: rgb(206, 190, 190);
+   background-color: rgba(70, 70, 70, 0.274);
+   margin: 10px 10px 10px 0px;
+   padding: 10px;
+   width: 12%;
+   text-align: center;
+   /* border: solid 1px rgb(83, 83, 83); */
+   border-radius: 5px 5px 5px 5px;
+   /* box-shadow: inset 3px 3px 1px 0px rgb(107, 107, 107); */
+}
+.link__b::before {
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   margin: 0px 0px -5px 0px;
+   background-color: rgb(255, 0, 0);
+   text-align: center;
+   content: "";
+   display: block;
+}
+.link__b:hover {
+   background-color: rgba(82, 82, 82, 0.507);
+}
+/* .link__b:active {
+   margin: 0px 15px 0px 5px;
+} */
+.buttom__1:hover {
+   background-color: rgba(82, 82, 82, 0.534);
+}
+.conteiner__box:hover {
+   background-color: rgb(14, 14, 14);
+}
+.buttom__1:hover::before{
+   background-color: rgb(40, 224, 3);
+   color: rgb(65, 252, 48);
+}
+.buttom__1:hover:first-of-type {
+   color: rgb(65, 252, 48);
+}
+.link__b:hover:last-of-type{
+   color: rgb(255, 0, 0);
+}
+.link__b:hover::before{
+   background-color: rgb(40, 224, 3);
+   color: rgb(255, 2, 2);
+}
+img {
+   width: 150px;
+   position: static;
+   
+}
+img:hover{
+   width: 150px;
+
+   
+} 
